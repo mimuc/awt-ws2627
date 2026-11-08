@@ -1,0 +1,6 @@
+.counter { text-align: center; font-size: 2.5rem; padding: 1.5rem 2rem; }
+.counter button {
+  font-size: 1.2rem; width: 3.5rem; margin: .5rem; padding: .3rem 0;
+  color: #fff; background: #e53935; border: 0; border-radius: 4px; cursor: pointer;
+}
+.counter button:hover { background: #c62828; }

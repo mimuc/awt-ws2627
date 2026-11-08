@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Memes</title>
+  <script type="module" src="meme.js"></script>
+  <style>
+    body { font-family: system-ui, sans-serif; display: flex; flex-wrap: wrap; gap: 1rem; padding: 1rem; }
+    meme-image { width: 360px; }
+  </style>
+</head>
+<body>
+  <meme-image editable memeTemplateUrl="One-Does-Not-Simply.jpg">
+    <meme-caption position="top">ONE DOES NOT SIMPLY</meme-caption>
+    <meme-caption position="bottom">WRITE BEAUTIFUL JAVASCRIPT</meme-caption>
+    <meme-caption x="30" y="22">A THIRD ONE</meme-caption>
+  </meme-image>
+
+  <meme-image memeTemplateUrl="X-X-Everywhere.jpg">
+    <meme-caption position="top">CALLBACKS</meme-caption>
+    <meme-caption position="bottom">CALLBACKS EVERYWHERE</meme-caption>
+  </meme-image>
+</body>
+</html>
