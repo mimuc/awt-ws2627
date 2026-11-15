@@ -1,0 +1,9 @@
+.app-header {
+  height: 3.5rem; display: flex; align-items: center; gap: 1.5rem; padding: 0 1rem;
+  box-sizing: border-box; color: #fff; background: #2b6cd4;
+}
+.app-title { font-size: 1.5rem; }
+.app-header ul { display: flex; gap: 1rem; margin: 0; padding: 0; list-style: none; }
+.app-header a { color: #fff; }
+/* NavLink adds the class "active" to the link of the current page */
+.app-header a.active { font-weight: bold; text-decoration: none; }

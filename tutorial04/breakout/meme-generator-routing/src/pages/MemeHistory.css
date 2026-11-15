@@ -1,0 +1,5 @@
+.history { display: flex; flex-wrap: wrap; gap: 1rem; list-style: none; margin: 0; padding: 1rem; }
+.history li { width: 320px; }
+.history h3 { margin: 0 0 .3rem; font-weight: normal; }
+.history img { display: block; width: 100%; }
+.history-empty { padding: 1rem; }
